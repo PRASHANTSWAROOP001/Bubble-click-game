@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(174, 241, 174);
+}
+
+#panel{
+    overflow: hidden;
+    width: 75%;
+    height: 85%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#panelTop{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(93, 196, 93);
+}
+
+.elem{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.box{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #fff;
+    color: #30a449;
+}
+
+#panelBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+    padding: 10px 10px;
+
+}
+
+.bubble{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    background-color: #0cba31;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: #047b1e;
+}
+
+#gameOver{
+ color: #30a449;
+}
